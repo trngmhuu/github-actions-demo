@@ -10,8 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoGithubActionsApplication {
 
 	@GetMapping("/name")
-	public String welcome() {
+	public String welcome1() {
 		return "Truong Minh Huu";
+	}
+
+	@GetMapping("/name1")
+	public String welcome2() {
+		return "Pham Minh Hieu";
 	}
 
 //	echo "# github-actions-demo" >> README.md
