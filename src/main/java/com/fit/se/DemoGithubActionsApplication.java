@@ -22,6 +22,4 @@ public class DemoGithubActionsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoGithubActionsApplication.class, args);
 	}
-
-	this is error test
 }
