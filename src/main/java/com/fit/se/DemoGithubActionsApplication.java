@@ -19,15 +19,9 @@ public class DemoGithubActionsApplication {
 		return "Pham Minh Hieu";
 	}
 
-//	echo "# github-actions-demo" >> README.md
-//	git init
-//	git add README.md
-//	git commit -m "first commit"
-//	git branch -M main
-//	git remote add origin https://github.com/trngmhuu/github-actions-demo.git
-//	git push -u origin main
 	public static void main(String[] args) {
 		SpringApplication.run(DemoGithubActionsApplication.class, args);
 	}
 
+	this is error test
 }
